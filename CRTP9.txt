@@ -11,4 +11,7 @@ e) Sans cette instruction, la sortie serait "entree_invalide".
 
 f) cf Cafe2/automate.c
 
-g)
+g) 	$ printf("taille automate :%lu octets\n",sizeof(A));
+Taille : 2 163 208 octets?!
+
+h)
