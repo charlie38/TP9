@@ -1,7 +1,7 @@
 a) Par défaut, les transitions partant de l'état i amènent vers l'état i
 
-b) Les caractères d'entrée sont c et r.
-Cela correspond a crédit et rendre la monnaie.
+b) Les caractères d'entrée sont c, r et 2.
+Cela correspond à choisir sa boisson, rendre la monnaie et donner 20 centimes.
 
 c) Quand on saisit un caractère d'entrée non prévu : message "entrée_invalide"
 
