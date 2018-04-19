@@ -53,7 +53,7 @@ void simule_automate(automate *A) {
 	int symbole_entree= ' ' ;
 
 	etat_courant = A->etat_initial ;
-	while (1) {
+	while ( (A->etats_finals[etat_courant])==0 ) {
 		lire_entree(&symbole_entree);
 		if (symbole_entree==(int)'q'){
 			exit(1);
