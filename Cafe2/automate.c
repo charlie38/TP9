@@ -59,7 +59,7 @@ void simule_automate(automate *A) {
 			exit(1);
 		}else{
 			etat_suivant=A->transitions[etat_courant][(char)symbole_entree];
-			ecrire_sortie(A->sortie[1][(char)symbole_entree]);
+			ecrire_sortie(A->sortie[etat_courant][(char)symbole_entree]);
 			etat_courant=etat_suivant;		
 		}
 	}
