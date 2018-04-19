@@ -14,5 +14,5 @@ f) cf Cafe2/automate.c
 g) 	$ printf("taille automate :%lu octets\n",sizeof(A));
 Taille : 2 163 208 octets?!
 
-h) cf automate_machine.pdf
+h) cf automate_machine.pdf et ma_machine.auto
 
