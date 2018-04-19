@@ -7,3 +7,6 @@ c) Quand on saisit un caractère d'entrée non prévu : message "entrée_invalid
 
 d) cf automate.c
 
+e) Sans cette instruction, la sortie serait une chaîne de caractères quelconque.
+
+f) cf Cafe2/automate.c
