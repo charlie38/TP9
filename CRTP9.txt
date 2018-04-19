@@ -3,10 +3,12 @@ a) Par défaut, les transitions partant de l'état i amènent vers l'état i
 b) Les caractères d'entrée sont c, r et 2.
 Cela correspond à choisir sa boisson, rendre la monnaie et donner 20 centimes.
 
-c) Quand on saisit un caractère d'entrée non prévu : message "entrée_invalide"
+c) Quand on saisit un caractère d'entrée non prévu : message "entree_invalide"
 
 d) cf automate.c
 
-e) Sans cette instruction, la sortie serait une chaîne de caractères quelconque.
+e) Sans cette instruction, la sortie serait "entree_invalide".
 
 f) cf Cafe2/automate.c
+
+g)
