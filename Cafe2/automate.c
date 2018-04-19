@@ -82,7 +82,7 @@ void lecture_automate(automate *A, FILE *f){
 	for (i=0 ; i< nb_etats_fin ; i++) {
 		fscanf(f, "%d", &etat_fin) ;
 		A->etats_finals[etat_fin]=1;
-	} ;
+	}
 	
 	/* nombre de transitions */
 	fscanf(f, "%d", &nb_trans) ;
@@ -90,7 +90,7 @@ void lecture_automate(automate *A, FILE *f){
 		fscanf(f, "%d %c %d", &depart, &entree, &arrivee) ;
 		A->transitions[depart][(int)entree] = arrivee ;
 		A->sortie[depart][(int)entree][0] = '\0' ;
-	} ;
+	}
 
 	/* terminer par la lecture des sorties */
 	int nb_sorties;
@@ -99,5 +99,5 @@ void lecture_automate(automate *A, FILE *f){
 	for(int i=1;i<=nb_sorties;i++) {
 		fscanf(f, "%d %c %s", &depart, &entree, message);
 		strcpy(A->sortie[depart][(int)entree],message);
-	} ;
+	}
 }
