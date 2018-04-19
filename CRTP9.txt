@@ -14,8 +14,9 @@ f) cf Cafe2/automate.c
 g) 	$ printf("taille automate :%lu octets\n",sizeof(A));
 Taille : 2 163 208 octets?!
 
-h) cf automate_machine.pdf et ma_machine.auto
+h) cf automate_machine.pdf (vu la question i sur l'état final, la numérotation est incorrecte sur le schéma...)
+cf ma_machine.auto
 
 i) cf automate_mystere.pdf
-1 état final pour cet automate : le numéro 2!
+1 état final pour cet automate : le numéro 2..?
 cf Mystere/automate.c
