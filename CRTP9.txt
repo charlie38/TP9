@@ -5,7 +5,7 @@ Cela correspond à choisir sa boisson, rendre la monnaie et donner 20 centimes.
 
 c) Quand on saisit un caractère d'entrée non prévu : message "entree_invalide"
 
-d) cf automate.c
+d) cf Cafe1/automate.c
 
 e) Sans cette instruction, la sortie serait "entree_invalide".
 
@@ -17,4 +17,5 @@ Taille : 2 163 208 octets?!
 h) cf automate_machine.pdf et ma_machine.auto
 
 i) cf automate_mystere.pdf
-Pas d'état final pour cet automate..?
+1 état final pour cet automate : le numéro 2!
+cf Mystere/automate.c
