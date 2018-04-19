@@ -94,9 +94,10 @@ void lecture_automate(automate *A, FILE *f){
 
 	/* terminer par la lecture des sorties */
 	int nb_sorties;
-	char message[];
+	char message[LG_MAX_SORTIE];
 	fscanf(f,"%d",&nb_sorties);
 	for(int i=1;i<=nb_sorties;i++) {
-		fscanf(f, "%d %c %s", &depart, &entree, message);/* scanner un string depuis un fichier? */
-		strcpy(&A->sortie[depart][(int)entree],&message);
-	}
+		fscanf(f, "%d %c %s", &depart, &entree, message);
+		strcpy(A->sortie[depart][(int)entree],message);
+	} ;
+}
