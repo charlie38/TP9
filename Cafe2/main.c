@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "automate.h
 
-int main(int argc, char *argv){
+int main(int argc, char *argv[]){
     automate A;
     if (argc != 2){
         printf("USAGE: ./test_automate nom_fichier");
