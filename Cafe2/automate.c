@@ -84,7 +84,6 @@ void lecture_automate(automate *A, FILE *f){
 		A->etats_finals[etat_fin]=1;
 	} ;
 	
-	
 	/* nombre de transitions */
 	fscanf(f, "%d", &nb_trans) ;
 	for (i=1 ; i<= nb_trans ; i++) {
