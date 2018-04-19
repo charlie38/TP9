@@ -7,8 +7,7 @@ int main(int argc, char *argv[]){
         printf("USAGE: ./test_automate nom_fichier\n");
         exit(1);
     }
-    char *nom_fichier = argv[1];
-    FILE *f = fopen(nom_fichier,"r");
+    FILE *f = fopen(argv[1],"r");
     lecture_automate(&A,f);
     return 0;
 }
