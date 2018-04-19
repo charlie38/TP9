@@ -17,4 +17,6 @@ void init_mon_automate(automate *A)  ;
 
 void simule_automate(automate *A)  ;
 
+void lecture_automate(automate *A, FILE *f) ;
+
 #endif
