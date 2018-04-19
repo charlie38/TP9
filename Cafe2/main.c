@@ -9,5 +9,6 @@ int main(int argc, char *argv[]){
     }
     FILE *f = fopen(argv[1],"r");
     lecture_automate(&A,f);
+    simule_automate(&A);
     return 0;
 }
